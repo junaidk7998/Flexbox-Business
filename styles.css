@@ -58,24 +58,38 @@ button:hover {
 .container-1 {
     display: flex;
     margin: 10px 20px;
+    flex-direction: column;
 }
 
 .container-1 div {
     padding: 10px;
+    margin: 10px 10px;
 }
 
 .box-1 {
-    flex: 1;
-    height: 200px;
+    height: 700px;
     color: #ecf0f1;
     text-align: center;
+    border: 1px solid #2e2f33;
+    background-image: url("jonathan-nguyen-XwO0raJ2dQM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-    border-radius: 1px solid black;
+.box-1 h2 {
+    background: rgba(255, 255, 255, 0);
 }
+
+.box-2 {
+    height: 700px;
+    color: #ecf0f1;
+    text-align: center;
+    border: 1px solid #2e2f33;
+    line-height: 35px;
+}
+
+
+
 /*
 #nav-menu ul {
     list-style-type: none;
