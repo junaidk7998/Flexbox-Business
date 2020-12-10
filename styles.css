@@ -86,32 +86,15 @@ button:hover {
     text-align: center;
     border: 1px solid #2e2f33;
     line-height: 35px;
+    background-image: url("hue12-photography-8rTwokBwz1w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-
-
-/*
-#nav-menu ul {
-    list-style-type: none;
+.box-2 h2, h3, p {
+    background: rgba(255, 255, 255, 0);
 }
 
-#nav-menu ul li {
-    float: left;
+p:hover {
+    font-size: 1.5rem;
 }
-
-#nav-menu ul li a {
-    text-align: center;
-    display: block;
-    width: 325px;
-    padding: 1em 0;
-    text-decoration: none;
-    background-color: rgb(75, 75, 75);
-    color: white;
-    font-weight: bold;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    font-size: 18px;
-}
-*/
