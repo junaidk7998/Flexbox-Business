@@ -62,7 +62,7 @@ button:hover {
 }
 
 .container-1 div {
-    padding: 10px;
+    padding: 20px;
     margin: 10px 10px;
 }
 
@@ -81,7 +81,7 @@ button:hover {
 }
 
 .box-2 {
-    height: 700px;
+    height: 705px;
     color: #ecf0f1;
     text-align: center;
     border: 1px solid #2e2f33;
@@ -95,6 +95,29 @@ button:hover {
     background: rgba(255, 255, 255, 0);
 }
 
-p:hover {
+.box-2 p:hover {
     font-size: 1.5rem;
+}
+
+.box-3 {
+    height: 605px;
+    color: #ecf0f1;
+    text-align: center;
+    border: 1px solid #2e2f33;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #585858;
+}
+
+.box-3 > .outdoor-img {
+    height: 90%;
+    width: 50%;
+}
+
+.loc-text {
+    background-color: #585858;
+}
+.loc-text h2{
+    background-color: #585858;
 }
